@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>All Products</title>
+    
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="SS.css">
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <nav>
+           <header id='name3' class="nav-bar">
+    <ul class="nav-bar-list">
+
+      <li><a href="Home.html"><img class="logo-img" src="images2/logo.png" alt="logo"></a></li>
+      <li><a href="">Offers</a></li>
+      <li><a href="BestSeller.html">Best Sellers</a></li>
+      <li><a href="">FAQs</a></li>
+      <li><a href="">About</a></li>
+      <li class="search-placeholder"> <input id="searchfor" onkeyup="search()" type="text"
+          placeholder="What are you looking for ?"> </li>
+    </ul>
+
+    <ul class="header-right-section nav-bar-list">
+        
+      <li><a href="Register.html">Register</a></li>
+      <li><a href="Login.html">Sign in</a></li>
+      <li><a href="Home.html">Log Out</a></li>
+      <li> <a href="cart.html"><span class="material-icons"> shopping_cart </span></a></li>
+    </ul>
+
+
+
+ 
+      </header>
+           
+                   <ul id="searchList" class="search-list">
+    <li class="search-item"><a href="">Pepsi</a> </li>
+    <li class="search-item"><a href="">Almond Milk</a></li>
+    <li class="search-item"><a href="">Cola Pepsi</a></li>
+    <li class="search-item"><a href="Muesli.html">Muesli</a></li>
+
+
+  </ul>
+      <aside >
+  <div id="menu-bar">
+    <div id="menu" onclick="onClickMenu();" style="width: 50px;">
+      <div id="bar1" class="bar"></div>
+      <div id="bar2" class="bar"></div>
+      <div id="bar3" class="bar"></div>
+    </div>
+    <table class="menuContents" id="menuContents">
+      <ul>
+    <tr><td><li><strong><a href="Products.html">All products</strong></a></li></td></tr>
+    <tr><td><li><a href="Breakfast.html"> Breakfast</a><br></li></td></tr>
+    <tr><td><li><a href="Dairy.html">Cheese, Diary & Eggs</a> <br></li></td></tr>
+    <tr><td><li><a href="Drink.html">Beverages</a> <br></li></td></tr>
+    <tr><td><li><a href="">Desserts & Sweets </a><br></li></td></tr>
+    <tr><td><li><a href="">Pasta</a> <br></li></td></tr>
+    <tr><td><li><a href="">Cereals</a> <br></li></td></tr>
+    <tr><td><li><a href="">Meat</a> <br></li></td></tr>
+    <tr><td><li><a href="">Seafood</a> <br></li></td></tr>
+    <tr><td><li><a href="">Fresh Fruits & Vegetables</a> <br></li></td></tr>
+    <tr><td><li><a href="">Seafood</a> <br></li></td></tr>
+    </ul>
+    </table>
+</aside>
+
+<div class="Products">
+    <div class="Dairy">
+    <h1>Dairy</h1>
+ 
+            <div class="section">
+
+            <img src="images/Dairyy.jpg" class="span" style="margin-bottom:20px; width: 1000px;" onclick="window.open('Dairy.html','_self');"  > 
+        
+            </div>
+            
+
+    </div>
+    
+
+
+<br><br><br><br><br>
+<div class="Drinks">
+    <h1>Soft-Drinks</h1>
+ 
+            <div class="section">
+
+            <img src="images/soft-drinks.jpg" class="span" style="margin-bottom:20px; width: 1000px; " onclick="window.open('Drink.html','_self');" > 
+        
+            </div>
+
+    </div>
+
+   
+    <br><br><br><br><br>
+<div class="breakfast">
+    <h1>Breakfast</h1>
+ 
+            <div class="section">
+
+            <img src="images/Break.jpeg" class="span" style="margin-bottom:20px; width: 1000px; " onclick="window.open('Breakfast.html','_self');"> 
+        
+            </div>
+
+    </div>
+<br><br><br><br><br>
+
+
+<div class="Snacks">
+    <h1>Snacks</h1>
+ 
+            <div class="section">
+
+            <img src="images/Snacks.jpg" class="span" style="margin-bottom:20px; width: 1000px;" onclick="window.open('Snacks.html','_self');"  > 
+        
+            </div>
+
+    </div>
+<br><br><br><br><br><br>
+
+
+
+
+
+
+
+
+</div>
+<div class="footer" id='name'>
+	<div class="footer-content">
+	  <div class="footer-section about">
+		<HH1> YUMMY TUMMY </HH1> <br>
+		<div class="contact">
+		  <span style="font-size: 20px;"><i class="fa fa-phone"></i> &nbsp;123- 456- 789 </span>
+		  <span style="font-size: 20px;"><i class="fa fa-envelope"></i> &nbsp; info@yummyTummy.com</span>
+		</div>
+		<div class="socials">
+		  <a href="" style="font-size: 25px;" ><i class="fa fa-facebook"></i> Facebook</a> <br> 
+		  <a href="" style="font-size: 25px;"><i class="fa fa-instagram"> Intagram</i></a> <br>
+		</div>
+		 
+   <button id="adButton" class="sett settH" onClick="showAdminBar()"><img src="set.png" width=30px height=30px />Admin_Control</button>
+	  </div>   
+	  <div class="footer-section products">
+		<HH2>MAIN CATEGORIES</HH2>
+		<br>
+		  <a  href="Products.html" >All Categories</a><br>
+		  <a  href="Dairy.html">Dairy Products</a><br>
+		  <a  href="Breakfast.html"> Breakfast</a><br>
+		  <a  href="Drink.html" >Soft Drinks</a><br>
+		  <a  href="Snacks.html">Snacks</a><br>
+	  </div>  
+	  <div class="footer-section links">
+		<HH2>QUICK LINKS</HH2>
+		<br>
+		  <a href="Home.html">Home</a><br>
+		  <a href ="BestSeller.html">Best Sellers</a><br>
+		  <a href="FAQ.html">FAQs</a><br>
+		  <a href="about.html">About</a><br>
+		  <a href="contactUs.html">Contact Us</a><br>
+	  </div>  
+	</div>
+  
+	<div class="footer-bottom">
+	  &copy; Yummy Tummy | Designed by Creativity Overflow
+	</div>
+	 
+		<script src="Java.js"></script>
+		<script src="salma.js"></script>
+
+</body>
+</html>

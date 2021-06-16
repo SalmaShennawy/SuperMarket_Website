@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="product.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body id="cart-body" class="cart-bg" onload="cartDisplay();">
+    <header class="nav-bar">
+        <ul class="nav-bar-list">
+            <li><a href="Home.html"><img class="logo-img" src="images2/logo.png" alt="logo"></a></li>
+            <li><a href="">Offers</a></li>
+            <li><a href="BestSeller.html">Best Sellers</a></li>
+            <li><a href="">FAQs</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="search-placeholder"> <input id="searchfor" onkeyup="search()" type="text"
+                    placeholder="What are you looking for ?"></li>
+        </ul>
+
+        <ul class="header-right-section nav-bar-list">
+            <li><a href="Register.html">Register</a></li>
+            <li><a href="Login.html">Sign in</a></li>
+            <li> <a href="cart.html"><span class="material-icons"> shopping_cart </span></a></li>
+        </ul>
+    </header>
+    <div id="final-cart"></div>
+    <div>
+        <button id="checkout-button" class="btn" type="button" onclick="checkout()">Procceed and checkout </button>
+    </div>
+
+
+</body>
+<script src="cart.js"></script>
+
+</html>

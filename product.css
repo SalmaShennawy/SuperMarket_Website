@@ -1,0 +1,665 @@
+.Products img{
+    
+   
+    width: 500px;
+    height: 400px;
+ border: double;   
+}
+
+h1{
+    font-size: 300%;
+    color: #84B4C8;
+}
+
+body{
+    margin: 0px;
+   
+}
+.span{
+    height: 400px;
+   
+}
+
+
+.section{
+    width: 650px;
+    height: 300px;
+
+    
+}
+.sectionspan{
+    height: 600px;
+    background-color: white;
+}
+.Products img:hover{
+    transform: translateY(-7px);
+    cursor: grab;
+    
+    
+}
+
+header{
+    display: flex;
+}
+.logo {
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 50px solid aqua;
+  margin-left: 50px;
+}
+.logo-img {
+  width: 50px;
+}
+.nav-bar {
+  background-color: #84b4c8;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.header-right-section {
+  margin-left: auto;
+  font-size: 80%;
+}
+
+.nav-bar-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.nav-bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.nav-bar-list li input {
+  float: right;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 2px;
+  font-size: 1rem;
+  padding: 0.5em 20em 0.5em 0.5em;
+}
+.nav-bar-list li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.nav-bar-list li a:hover {
+  background-color: #b2d9ea;
+}
+
+.logo-img {
+  width: 50px;
+  height: 50px;
+}
+.logo {
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 50px solid aqua;
+  margin-left: 50px;
+}
+.Products{
+    margin-left: 250px;
+}
+.product{
+  flex-basis: 25%;
+  padding:10px;
+  min-width: 200px;
+  margin-bottom: 50px;
+    
+}
+.product img{
+    width:300px;
+    height: 300px;
+}
+
+.box{
+    background-color:#84B4C8;
+    width: 300px;
+    height: 80px;
+    color:white;
+    text-align: center;
+  font-size: 130%;
+  
+}
+.box:hover{
+    background-color:#B2D9EA;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    
+}
+select{
+    font-size: 200%;
+    background-color:#84B4C8;
+    color:white;
+    border-style: double;
+    border-color:#B2D9EA;
+   
+}
+
+.Breakfast {
+  margin: 8px -16px;
+}
+.Snacks {
+  margin: 8px -16px;
+}
+.Dairy {
+  margin: 8px -16px;
+}
+.Drinks {
+  margin: 8px -16px;
+}
+.BestSeller {
+  margin: 8px -16px;
+}
+
+
+/* Add padding BETWEEN each column (if you want) */
+.Breakfast,
+.Breakfast> .product {
+  padding: 8px;
+}
+.Snacks,
+.Snacks> .product {
+  padding: 8px;
+}
+.Dairy,
+.Dairy> .product {
+  padding: 8px;
+}
+.Drinks,
+.Drinks> .product {
+  padding: 8px;
+}
+.BestSeller,
+.BestSeller> .product {
+  padding: 8px;
+}
+/* Create three equal columns that floats next to each other */
+.product {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide columns by default */
+}
+
+/* Clear floats after rows */
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+
+.btn:hover{
+background-color: #B2D9EA;
+}
+.Dairy.product img{
+    width: 200px;
+    height: 200px;
+    
+}
+
+
+.box{
+    background-color:#84B4C8;
+    width: 300px;
+    height: 80px;
+    color:white;
+    text-align: center;
+  font-size: 130%;
+  
+}
+.box:hover{
+    background-color:#B2D9EA;
+}
+
+.sliding-images {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  height: 35em;
+  filter: blur(1px);
+  /* 
+  box-shadow: 0 0 10px black; */  
+  margin: 0 auto;
+}
+.transition-buttons {
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+  margin: 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0s ease;
+}
+.active, .transition-buttons:hover {
+  background-color: #717171;
+}
+.search-placeholder {
+  float: center;
+}
+.search-list {
+  background-color: #eeeeee;
+  list-style-type: none;
+  z-index: 1;
+  position: absolute;
+  top: 8.5%;
+  left: 30.5%;
+  padding-left: 0;
+}
+.search-list li
+{
+  display: none;
+  border: 1px solid rgb(187, 187, 187);
+  padding-right:28em ;
+
+}
+.search-item a {
+  display: block;
+  color: rgb(122, 122, 122);
+  text-align: left;
+  padding: 14px 0 14px 0 ;
+  text-decoration: none;
+}
+.shopping-cart{
+  margin: 3em auto;
+  width: 900px;
+  resize: both;
+  border-color: rgb(179, 179, 179);
+  box-shadow: 0 0 5px black;
+  display: flex;
+  padding: 2em 2em 2em 2em;
+}
+.cart-products
+{
+  text-align: left;
+  padding-left: 1em;
+  line-height: 3em;
+}
+.Quantity
+{
+  width: 3em;
+
+}
+.cart-images{
+  width : 250px;
+}
+.banner{
+    background-color: #012736;
+    width: 100%;
+    height: 200px;
+  }
+  .creating-account{
+  text-align:center;
+  color: black;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .creating-account h1{
+  margin:0;
+  padding: 0;
+  font-size: 40px;
+  padding-top: 6%;
+  text-align: center;
+  color: white;
+  }
+  .creating-account p{
+  font-size: 20px;
+  max-width: 1400px;
+  text-align: center;
+  color: white;
+  }
+  
+  
+  #g-started{
+  height:30px; 
+  width:250px; 
+  margin: auto; 
+  position:absolute; 
+  left:25%;
+  top:100%;
+  color:white;
+  background-color: #012736;
+  font:70px;
+  border-radius: 7px;
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .form-table{
+  width:600px;
+  height:380px;
+  margin:0px 0px 0px 430px;
+  position: fixed;
+  border:2px solid #012736;
+  border-radius: 7px;
+  }
+  .t-box{
+  width: 300px;
+  height: 25px;
+  border-radius: 7px;
+  padding-left: 20%;
+  }
+  .bar{
+   padding-left: 35%;
+   max-width: 30%;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     height:5px;
+  width: 100%;
+  background-color: #84b4c8;
+  display:block;
+  border-radius: 5px;
+  transition: 0.3s ease;
+   
+  }
+  .bar h{
+    color: #012736;
+    padding-left: 10%;
+   max-width: 30%;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  label{
+  font-weight: bold;
+  display: flex;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+   .creating-account span{
+   display: block;
+   color: red;
+  }
+#menu{
+  width:35px;
+  height: 30px;
+  margin: 30px 0 20px 20px;
+  cursor: pointer;
+}
+
+#bar1{
+  transform: translateY(-4px);
+}
+#bar3{
+  transform: translateY(4px);
+}
+.menuContents{ 
+  background-color:#84b4c8;
+  border-collapse: collapse;
+  width: 15%;
+  padding-right:150px;
+  padding-left: 16px;
+  text-align: center;
+  border-bottom: 0.5px solid #b2d9ea;
+  list-style-type: none;
+  display:none;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     z-index: 1;
+    position: absolute;
+}
+ 
+.change.bar{
+  background-color: white;
+}
+.change #bar1{
+  transform: translateY(4px) rotateZ(-45deg);
+}
+.change #bar3{
+  transform: translateY(-6px) rotateZ(45deg);
+}
+.change #bar2{
+  opacity:0;
+}
+.change{
+  display: block;
+}
+ 
+.nav-bar1{background-color:#5b5f61;
+  font-size: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.nav-bar1 a:hover{
+  background-color:#5b5f61;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  }
+.contactUs{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.contactUs h2{
+  margin:0;
+  padding: 0;
+  color: white;
+  font-size: 80px;
+  text-align: center;
+}
+.contactUs p{
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  max-width: 1050px;
+}
+.contact-table{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7%;
+   
+ 
+}
+.contact-table td a {
+  border: 2px solid white;
+  width:50% ;
+  border-radius: 5px;
+  color: white;
+  border-width: 5px;
+  padding:100px 50px 60px 50px;
+  border-color: white white white white;
+  text-decoration: none;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: larger;
+ 
+}
+.contact-table td a:hover{
+  background-color: #5b5f61;
+  font-weight: bolder;
+  border-width: 10px;
+  padding:120px 50px 70px 50px;
+}
+.vl {
+  border-left: 4px solid white;
+  height: 310px;
+  position: absolute;
+  left: 78%;
+  margin-left: -3px;
+  top:40%;
+}
+.info-symb{
+  position: absolute;
+  left: 80%;
+  margin-left: -3px;
+  top:40%;
+}
+.info-symb h2{
+  color:white;
+  text-decoration: underline;
+  display: inline-block;
+  font-size: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* use this to put borders around things... */
+
+.Muesli{
+ margin-top: 20px;
+ 
+}
+.related{
+ border: dotted #84B4C8;
+ margin: 10px;
+}
+.related img{
+ width: 200px;
+ height: 200px;
+ 
+}
+.related.box{
+ height: 100px;
+ width: 100px;
+}
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color:#84B4C8 ;
+  cursor: pointer;
+  color: white;
+  font-size: 120%;
+
+  margin: 3em auto;
+  display: flex;
+ 
+}
+.checkout-div{
+  margin: 3em auto;
+  width: 450px;
+  resize: both;
+  border-color: rgb(179, 179, 179);
+  box-shadow: 0 0 5px rgb(194, 218, 238);
+  display: flex;
+  padding: 2em 2em 2em 2em;
+}
+.btnn {
+  position: absolute;
+  top: 70%;
+  left: 42%;
+  background-color: rgb(247, 247, 247);
+  color: rgb(163, 232, 236);
+  font-size: 16px;
+  padding: 12px 24px;
+  cursor: pointer;
+  border:none;
+  width:250px;
+  text-align: center;
+ 
+}
+.btnn:hover{
+  background-color: rgb(207, 207, 207); 
+}
+
+#menu-bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+
+  
+  align-items: center;
+}
+#menu-bar li input {
+  float: right;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 2px;
+  font-size: 1rem;
+  padding: 0.5em 20em 0.5em 0.5em;
+}
+#menu-bar li a {
+  display: block;
+
+
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#menu-bar li a:hover {
+  background-color: #b2d9ea;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+
+
+
+}
+.cart-bg{
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+.btn2{
+ 
+   border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color:#84B4C8 ;
+  cursor: pointer;
+  color: white;
+  font-size: 120%;
+}
+.btn2{
+ background-color: #B2D9EA;
+}
+
+/* offers page */
+.offers{
+  flex-basis: 25%;
+  padding: 10px;
+  min-width: 200px;
+  margin-bottom: 50px;
+  background-color: #012736;
+  color: #ffffff;
+  text-align: center;
+}
+.offers img{
+  width: 200px;
+  height: 200px;
+}
+.box{
+  background-color:#84B4C8;
+  width: 315px;
+  height: 80px;
+  text-align: center;
+  font-size: 130%;
+  color: #012736;
+}
+.box:hover{
+  background-color:  #B2D9EA;
+
+}
+.row{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.previous{
+  text-decoration: line-through;
+}
+body {
+margin: 0;
+}
+.p{
+text-decoration: line-through;
+}
+.box a{
+color: #012736;
+text-decoration: none;
+}

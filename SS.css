@@ -1,0 +1,207 @@
+.button {
+    background-color: white;
+    border-style: solid;
+    border-color: #84b4c8;
+    color: #686868;
+    padding: 10px 15px;
+    font-size: 20px;
+    font-style:unset;
+    text-align:left;
+    margin: 4px 4px;
+    cursor: pointer;
+    width: 80%;
+    position: center;
+    border-radius: 0px;
+    margin-left: 10%; 
+    margin-right: 10%;
+    border-radius: 12px;
+  }
+  .buttonH:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),
+    0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: #84b4c8;
+   }
+   .topbar {
+    background-color: #84b4c8;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+
+  .topbar T {
+    display: block;
+    cursor: none;
+    color: #343a40;
+    padding-left: 16px;
+    padding-top: 1px;
+    padding-bottom: 3px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 42px;
+  }
+  
+  .topbar ad{
+    text-align: left;
+    color:  #343a40;
+    font-size: 15px;
+    margin-left: 2.5%;
+  }
+  .footer{
+    background: #84b4c8;
+    color:white;
+    height: 300px;
+    position: relative;
+  }
+  .footer .footer-bottom{
+    background-color: #343a40;
+    color: #686868;
+    height: 30px;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left:0px;
+    right: 0px;
+    padding-top: 10px;
+    width: 100%;
+    font-size: 16px;
+  }
+  .footer .footer-content {
+    height: 270px;
+    display: flex;
+    padding-top: 10px;
+    margin-left: 10px;
+  }
+  .footer .footer-content .footer-section {
+    flex: 1;
+  }
+  hh {
+    text-align: right;
+    color: #808080;
+    font-size: 50px;
+    margin-left: 10%; 
+    margin-right: 10%;
+  }
+  /* Paragraph style */
+  pra{
+    padding: 10px 15px;
+    font-size:18px;
+  }
+  pp{
+    font-size: 28px;
+    text-align: left;
+    color: #686868;
+  }
+  qq{
+    font-size: 35px;
+    color: #343a40;
+    text-align: left;
+    font-family: sans-serif;
+  }
+  .change1{
+    background-color: #DFC7C1;
+    border-style: solid;
+    border-color: #343a40;
+    cursor: pointer;
+    width: 1%;
+    color: #DFC7C1;
+    margin-left: 2.5%;
+    border-radius: 12px;
+    height: 1%;
+    padding: 1% 1%;
+  }
+  
+  .change1H:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),
+    0 6px 20px 0 rgba(0,0,0,0.19);
+   }
+   .change2
+   {
+    color: #619196;
+    border-color: #343a40;
+    background-color: #619196;
+    margin-left: 2%;
+    
+   }
+   .change3
+   {
+    color: #84B4C8;
+    border-color: #343a40;
+    background-color: #84B4C8;
+    margin-left: 2%;
+   }
+   .change4
+   {
+    color: #B2D9EA;
+    border-color: #343a40;
+    background-color: #B2D9EA;
+    margin-left: 2%;
+   }
+   .change5
+   {
+    color: #F4DCD6;
+    border-color: #343a40;
+    background-color: #F4DCD6;
+    margin-left: 2%;
+    
+   }
+  
+   a{
+    padding:0;
+    font-size: 16px;
+    color: #686868;
+  }
+   a:hover{
+    color: white;
+    cursor: pointer;
+  }
+  
+  ph{
+    color: #686868;
+    font-size: 17px ;
+    padding: 2px 16px;
+    margin-top: 1px;
+  }
+
+
+  
+  .hagar{
+    border: none;
+    margin-left: 10%; 
+    margin-right: 10%;
+    width: 80%;
+    font-size: 20px;
+    padding: 5px;
+    font-weight: normal;
+    text-align: left; 
+  }
+  HH2 {
+    color: #343a40;
+    font-size: 20px;
+    margin-bottom: 15px;
+    padding-top: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  HH1{
+    color: #343a40;
+    font-size: 40px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    font-weight: bold;
+  }
+  
+  .sett {
+    background-color: #84b4c8;
+    border: none;
+    height: 1%;
+    width: 1%;
+    padding: 1% 1%
+  }
+  .settH :hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),
+    0 6px 20px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+  }

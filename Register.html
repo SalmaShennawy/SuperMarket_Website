@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="product.css">
+</head>
+<body>
+<section>
+ <div class="creating-account">
+     <div class="banner">
+     <h1>Register</h1>
+     <p>Create an account to use Yummy Tummy services easily</p><br>
+     </div>
+    
+     <div class="bar">
+        
+        <a href="Login.html">already have an account ? /</a>
+        <a href="Home.html">Home /</a>
+        <a href="cart.html">cart /</a>
+        <a href="contactUs.html">Contact us</a>
+    
+    
+     </div>
+     <br>
+     
+     <form class="form-table" id="form-table" action='#' onsubmit= "return validation();">
+         
+          
+             <label >First Name:</label>
+            <div><input type="text" name="name" id="firstname" class="t-box">
+             <span id=fn></span>
+             </div>
+            
+            <label>Last Name:</label>
+             <div><input type="text" name="lastname" id="lastname" class="t-box">
+                <span id=ln></span>
+            </div>
+             
+             <label>Email:</label>
+             <div><input type="text" id="email" class="t-box">
+                <span id=em></span>
+            </div>
+            
+            <label>Phone Number:</label>
+             <div><input type="text" id="number" class="t-box">
+                <span id="no"></span>
+            </div>
+            <label>Address:</label>
+            <div><input type="text" id="address" placeholder="bulding number, street, area" class="t-box">
+               <span id="ad"></span>
+           </div>
+             <label>Password:</label>
+             <div><input type="password" name="password" id="password"  class="t-box">
+                <span id="pw"></span>
+                
+            <input type="checkbox" onclick="showPass();">Show Password
+            </div></td>
+           
+            <div class="button">
+                <input type="submit" value="Get started" id="g-started" >
+       
+                </div>
+
+         
+
+     </form>
+
+    
+ </div>
+</section>
+
+<script src="Java.js"></script>
+
+</body>
+</html>
